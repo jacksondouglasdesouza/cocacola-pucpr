@@ -1,0 +1,135 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&family=Roboto:wght@100;300;400;500&display=swap');
+
+html {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img.logo-marca {
+    width: 200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* AVISO SOBRE TRABALHO ACADÊMICO */
+
+section.aviso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #cb1c13;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section.aviso .atencao {
+    font-weight: 600;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+section.aviso p {
+    width: 90%;
+    padding: 5px 0;
+    font-weight: 130%;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+section.aviso a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 auto;
+}
+
+/* BANNER PRINCIPAL */
+
+section#banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('../imgs/bannerPrincipal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* BOTÃO */
+
+.botao {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 350px;
+}
+
+.botao:hover {
+    background-color: #8f0800;
+    color: #fff;
+    transition-duration: 0.4s;
+}
